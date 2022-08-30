@@ -18,6 +18,9 @@ namespace PrincipaisMetodos
             var paragrafoMinusculo = paragrafo.ToLower();
             var paragrafoMaiusculo = paragrafo.ToUpper();
 
+            // Split
+            var frases = paragrafo.Split('.');
+
             
         }
     }
