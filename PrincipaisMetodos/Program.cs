@@ -31,6 +31,8 @@ namespace PrincipaisMetodos
 
             // Replace
             var paragrafoCsharp = paragrafo.Replace("C#", "C-sharp");
+
+            Console.ReadKey();        
         }
     }
 }
