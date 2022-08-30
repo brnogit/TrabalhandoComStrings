@@ -14,6 +14,10 @@ namespace PrincipaisMetodos
             // Empty
             var vazio = string.Empty;
 
+            //ToLower, ToUpper
+            var paragrafoMinusculo = paragrafo.ToLower();
+            var paragrafoMaiusculo = paragrafo.ToUpper();
+
             
         }
     }
