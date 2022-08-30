@@ -11,6 +11,9 @@ namespace PrincipaisMetodos
             // Length = propriedade que reflete o tamanho do string
             var tamanho = paragrafo.Length;
 
+            // Empty
+            var vazio = string.Empty;
+
             
         }
     }
