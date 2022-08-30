@@ -29,7 +29,8 @@ namespace PrincipaisMetodos
             // IsNullOrWhiteSpace = verifica se é nulo ou espaço em branco
             var isNullOrWhiteSpace = string.IsNullOrWhiteSpace(paragrafo);
 
-            
+            // Replace
+            var paragrafoCsharp = paragrafo.Replace("C#", "C-sharp");
         }
     }
 }
