@@ -25,6 +25,11 @@ namespace PrincipaisMetodos
             var paragrafoTrim = paragrafo.Trim(); //remove espaço em branco do inicio e final
             var paragrafoTrimEnd = paragrafo.TrimEnd(); // remove espaço em branco do final
             var paragrafoTrimStart = paragrafo.TrimStart(); // remove espaço em branco do começo
+
+            // IsNullOrWhiteSpace = verifica se é nulo ou espaço em branco
+            var isNullOrWhiteSpace = string.IsNullOrWhiteSpace(paragrafo);
+
+            
         }
     }
 }
