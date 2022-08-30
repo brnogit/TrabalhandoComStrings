@@ -21,7 +21,10 @@ namespace PrincipaisMetodos
             // Split
             var frases = paragrafo.Split('.');
 
-            
+            // Trim, TrimEnd, TrimStart
+            var paragrafoTrim = paragrafo.Trim(); //remove espaço em branco do inicio e final
+            var paragrafoTrimEnd = paragrafo.TrimEnd(); // remove espaço em branco do final
+            var paragrafoTrimStart = paragrafo.TrimStart(); // remove espaço em branco do começo
         }
     }
 }
